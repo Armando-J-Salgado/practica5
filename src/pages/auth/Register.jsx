@@ -114,7 +114,7 @@ export default function Register() {
                       disabled={loading}
                       className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                      {loading ? 'Registrando cuenta...' : 'La cuenta fue registrada'}
+                      {loading ? 'Registrando cuenta...' : 'Registrar cuenta'}
                   </button>
               </form>
               <p className="text-center mt-6 text-gray-600">

@@ -25,7 +25,7 @@ export default function TaskStats() {
                 <div className='mx-2'>
                     <CircularProgressbar
                         value={percentage}
-                        text={`${percentage}%`}
+                        text={`${isNaN(percentage) ? '0%' : percentage + '%'}`}
                         styles={buildStyles({
                             pathColor: (theme === 'dark') ? '#8ec5ff' : '#2626FC',
                             trailColor: '#EDEDFF'
