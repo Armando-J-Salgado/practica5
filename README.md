@@ -85,4 +85,4 @@ Crea un archivo `.env.local` en la raíz del proyecto con tus credenciales de Fi
 npm run dev
 ```
 
-La aplicación estará disponible en ``
+La aplicación estará disponible en `https://enchanting-fudge-25e1f0.netlify.app/dashboard`
