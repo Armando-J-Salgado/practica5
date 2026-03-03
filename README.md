@@ -78,15 +78,7 @@ yarn install
 ```
 
 3. **Configurar variables de entorno**
-Crea un archivo `.env.local` en la raíz del proyecto con tus credenciales de Firebase:
-```
-VITE_FIREBASE_API_KEY=tu_api_key
-VITE_FIREBASE_AUTH_DOMAIN=tu_auth_domain
-VITE_FIREBASE_PROJECT_ID=tu_project_id
-VITE_FIREBASE_STORAGE_BUCKET=tu_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=tu_sender_id
-VITE_FIREBASE_APP_ID=tu_app_id
-```
+Crea un archivo `.env.local` en la raíz del proyecto con tus credenciales de Firebase.
 
 4. **Ejecutar en desarrollo**
 ```bash
